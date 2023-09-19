@@ -1,0 +1,63 @@
+/* Estilos para el header */ 
+header {
+    background-color: #4269d4; 
+    padding: 20px;
+    text-align: center; 
+    }
+    /* Estilos para las subsecciones */ 
+    #Elestudiojuridico, #Nuestroequipo,#Contacto {
+    margin: 20px;
+    padding: 20px;
+    border: 3px solid #726f7e; 
+    }
+    /* Estilos para los títulos de subsecciones */ 
+    #Elestudiojuridico h2, #Nuestroequipo h2,#Contacto h2 {
+    font-size: 24px; 
+    }
+    /* Estilos para la lista de habilidades */ 
+    #Nuestroequipo ul,#Contacto ul {
+    list-style-type: square; 
+    }
+    /* Estilos para el footer */ 
+footer {
+    background-color: #f1f1f1; 
+    color: #333;
+    text-align: center; 
+    padding: 10px; 
+    position: end;
+    bottom: 0; 
+    width: 100%;
+}
+@media only screen and (max-width: 600px) {
+  /* Podemos ajustar el padding del encabezado y las subsecciones */
+  #Elestudiojuridico h2, #Nuestroequipo h2,#Contacto h2 {
+    padding: 10px;
+  }
+  /* Y también cambiar el tamaño de la fuente del título */
+  #Elestudiojuridico h2, #Nuestroequipo h2,#Contacto h2 {
+    font-size: 18px;
+  }
+}
+
+/* Estilos para pantallas medianas (tabletas) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Aquí podríamos mantener el padding del encabezado y las subsecciones igual */
+  #Elestudiojuridico h2, #Nuestroequipo h2 ,#Contacto h2 {
+    padding: 20px;
+  }
+  /* Pero quizás queremos que los títulos sean un poco más grandes que en móviles pero menores que en desktop */
+  #Elestudiojuridico h2, #Nuestroequipo h2 ,#Contacto h2 {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  /* Aquí podríamos aumentar el padding del encabezado y las subsecciones */
+  #Elestudiojuridico h2, #Nuestroequipo h2 ,#Contacto h2{
+    padding: 30px;
+  }
+  /* Y hacer que los títulos sean más grandes */
+  #Elestudiojuridico h2, #Nuestroequipo h2 ,#Contacto h2{
+    font-size: 28px;
+  }
+}
